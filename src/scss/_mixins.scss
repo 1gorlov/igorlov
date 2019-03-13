@@ -1,0 +1,7 @@
+
+// Media Query Mixin
+@mixin media($min-width) {
+    @media (min-width: $min-width) {
+        @content;
+    }
+}
