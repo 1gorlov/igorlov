@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto+Mono&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.text_wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: right;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background:black;
+    z-index: 0;
+}
+
+canvas {
+    display: block;
+}
