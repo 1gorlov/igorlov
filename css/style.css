@@ -18,6 +18,7 @@ p {
     font-family: 'Roboto Mono', monospace;
     color: white;
     font-size: 17px;
+    font-weight: lighter;
 }
 
 a {
@@ -25,6 +26,13 @@ a {
     color: white;
     text-decoration: none;
     font-size: 17px;
+    display: block;
+    font-weight: lighter;
+}
+a:active, a:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
 }
 
 .text_wrapper {
@@ -44,6 +52,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    opacity: 1;
 }
 
 .wrapper {
@@ -55,4 +64,11 @@ a {
 
 canvas {
     display: block;
+}
+
+hr {
+    margin: 28px 0 28px auto;
+    width: 50%;
+    color: white;
+    border-bottom: 0px;
 }
